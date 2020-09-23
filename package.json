@@ -1,0 +1,21 @@
+{
+  "name": "c8-empty-lines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-index": "cross-env NODE_V8_COVERAGE=./.c8-data ava dist/test/index.js",
+    "test-main": "cross-env NODE_V8_COVERAGE=./.c8-data ava dist/test/main.js",
+    "report": "c8 report -r lcov -r text --report-dir ./.c8-report",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Shishir",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.12.1",
+    "c8": "^7.3.1",
+    "cross-env": "^7.0.2",
+    "typescript": "^4.0.3"
+  }
+}
