@@ -1,4 +1,4 @@
-# c8 [reporting issue](https://github.com/bcoe/c8/issues/112)
+# c8 [reporting issue](https://github.com/bcoe/c8/issues/253)
 
 C8 mistakenly reports lack of coverage for empty lines - sometimes.
 This only seems to happen to files with `export * from ...` pattern
