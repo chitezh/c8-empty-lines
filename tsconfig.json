@@ -10,7 +10,8 @@
       "rootDir": "src",
       "removeComments": false,
       "outDir": "dist",
-      "incremental": true
+      "incremental": true,
+      "importHelpers": true
   },
   "exclude": [
       "node_modules",

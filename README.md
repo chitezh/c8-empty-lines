@@ -19,6 +19,7 @@ src/
 ```
 git clone https://github.com/sramam/c8-empty-lines
 npm install
+NODE_V8_COVERAGW=./.c8-data
 
 ```
 
