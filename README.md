@@ -1,4 +1,4 @@
-# c8 [reporting issue](https://github.com/bcoe/c8/issues/112)
+# c8 [reporting issue](https://github.com/bcoe/c8/issues/253)
 
 C8 mistakenly reports lack of coverage for empty lines - sometimes.
 This only seems to happen to files with `export * from ...` pattern
@@ -8,11 +8,11 @@ I am not very familiar with the inner workings of c8.
 
 ## This simple POC of the issue, provides two demonstrations.
 Before we get into it, the source is organized to be accessed in two ways:
-
+```
 src/
   index.ts         - an exporter of main.ts (the problem file)
   main.ts          - the simple business end of the code
-
+```
 
 ### Installation
 
